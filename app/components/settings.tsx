@@ -357,7 +357,7 @@ export function Settings() {
             ) : hasNewVersion ? (
               // cf
               // <Link href={UPDATE_URL} target="_blank" className="link">
-              <Link target="_blank" className="link">
+              <Link href="#" target="_blank" className="link">
                 {Locale.Settings.Update.GoToUpdate}
               </Link>
             ) : (
